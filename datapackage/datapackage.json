@@ -1,6 +1,6 @@
 {
     "profile": "data-package",
-    "name": "Autumn School Battery",
+    "name": "autumn-school-battery",
     "title": "Autumn school battery",
     "description": "A scenario example of prospective battery scenarios to be used in premise, edited during Premise worksop",
     "version": "0.0.3",
@@ -9,10 +9,10 @@
     "email": "roel.degens@vito.be"
     }],
     "dependencies": {
-        "premise": ">=1.2.5"
+        "premise": ">=1.7.4"
     },
     "ecoinvent": {
-        "version": "3.9.1",
+        "version": "3.9",
         "system model": "cut-off"
     },
     "scenarios": {
@@ -182,7 +182,7 @@
             }
         },
         {
-            "path": "inventories/lci-bread.csv",
+            "path": "inventories/lci_car.csv",
             "profile": "data-resource",
             "name": "inventories",
             "format": "csv",
