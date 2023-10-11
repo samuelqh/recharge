@@ -1,0 +1,152 @@
+Database;batteries;;;;;;
+;;;;;;;
+Activity;battery cell, NMC-622;;;;;;
+location;GLO;;;;;;
+production amount;1;;;;;;
+reference product;battery cell;;;;;;
+type;;;;;;;
+unit;kilogram;;;;;;
+worksheet name;Sheet1;;;;;;
+Exchanges;;;;;;;
+name;amount;database;location;categories;unit;type;reference product
+battery cell, NMC-622;1;batteries;GLO;;kilogram;production;battery cell
+market for heat, district or industrial, natural gas;12.5100;ecoinvent;RoW;;megajoule;technosphere;heat, district or industrial, natural gas
+market group for electricity, medium voltage;1.1875;ecoinvent;GLO;;kilowatt hour;technosphere;electricity, medium voltage
+cathode, NMC-622, for Li-ion battery;0.4100;batteries;GLO;;kilogram;technosphere;cathode, NMC-622, for Li-ion battery
+anode, graphite, for Li-ion battery;0.2000;ecoinvent;GLO;;kilogram;technosphere;anode, graphite, for Li-ion battery
+electrolyte, for Li-ion battery;0.1460;ecoinvent;GLO;;kilogram;technosphere;electrolyte, for Li-ion battery
+copper collector foil, for Li-ion battery;0.1200;ecoinvent;GLO;;kilogram;technosphere;copper collector foil, for Li-ion battery
+market for sheet rolling, copper;0.0335;ecoinvent;GLO;;kilogram;technosphere;sheet rolling, copper
+market for copper, anode;0.0335;ecoinvent;GLO;;kilogram;technosphere;copper, anode
+aluminium collector foil, for Li-ion battery;0.0300;ecoinvent;GLO;;kilogram;technosphere;aluminium collector foil, for Li-ion battery
+market for aluminium, wrought alloy;0.0283;ecoinvent;GLO;;kilogram;technosphere;aluminium, wrought alloy
+market for sheet rolling, aluminium;0.0283;ecoinvent;GLO;;kilogram;technosphere;sheet rolling, aluminium
+battery separator;0.0200;batteries;GLO;;kilogram;technosphere;battery separator
+market for extrusion, plastic film;0.0041;ecoinvent;GLO;;kilogram;technosphere;extrusion, plastic film
+market for polyethylene terephthalate, granulate, amorphous;0.0028;ecoinvent;GLO;;kilogram;technosphere;polyethylene terephthalate, granulate, amorphous
+market for polypropylene, granulate;0.0013;ecoinvent;GLO;;kilogram;technosphere;polypropylene, granulate
+market for chemical factory, organics;4.00E-10;ecoinvent;GLO;;unit;technosphere;chemical factory, organics
+;;;;;;;
+;;;;;;;
+Activity;cathode, NMC-622, for Li-ion battery;;;;;;
+location;GLO;;;;;;
+production amount;1;;;;;;
+reference product;cathode, NMC-622, for Li-ion battery;;;;;;
+type;;;;;;;
+unit;kilogram;;;;;;
+worksheet name;Sheet1;;;;;;
+Exchanges;;;;;;;
+name;amount;database;location;categories;unit;type;reference product
+cathode, NMC-622, for Li-ion battery;1;batteries;GLO;;kilogram;production;cathode, NMC-622, for Li-ion battery
+market for transport, freight train;0.0028;ecoinvent;RoW;;ton kilometer;technosphere;transport, freight train
+market for transport, freight, lorry, unspecified;0.0592;ecoinvent;RoW;;ton kilometer;technosphere;transport, freight, lorry, unspecified
+market for transport, freight, sea, container ship;0.2057;ecoinvent;GLO;;ton kilometer;technosphere;transport, freight, sea, container ship
+market group for electricity, medium voltage;0.4406;ecoinvent;GLO;;kilowatt hour;technosphere;electricity, medium voltage
+market for carbon black;0.0250;ecoinvent;GLO;;kilogram;technosphere;carbon black
+market for polyvinylfluoride;0.0250;ecoinvent;GLO;;kilogram;technosphere;polyvinylfluoride
+market for heat, district or industrial, natural gas;25.8646;ecoinvent;RoW;;megajoule;technosphere;heat, district or industrial, natural gas
+market for N-methyl-2-pyrrolidone;0.0056;ecoinvent;GLO;;kilogram;technosphere;N-methyl-2-pyrrolidone
+market for chemical factory, organics;4.00E-10;ecoinvent;GLO;;unit;technosphere;chemical factory, organics
+NMC-622 oxide;0.9500;batteries;GLO;;kilogram;technosphere;NMC-622 oxide
+;;;;;;;
+;;;;;;;
+Activity;NMC-622 oxide;;;;;;
+location;GLO;;;;;;
+production amount;1;;;;;;
+reference product;NMC-622 oxide;;;;;;
+type;;;;;;;
+unit;kilogram;;;;;;
+worksheet name;Sheet1;;;;;;
+Exchanges;;;;;;;
+name;amount;database;location;categories;unit;type;reference product
+NMC-622 oxide;1;batteries;GLO;;kilogram;production;NMC-622 oxide
+market for transport, freight train;0.0329;ecoinvent;CN;;ton kilometer;technosphere;transport, freight train
+market for transport, freight, inland waterways, barge;0.0027;ecoinvent;RoW;;ton kilometer;technosphere;transport, freight, inland waterways, barge
+market for transport, freight, sea, container ship;0.0637;ecoinvent;GLO;;ton kilometer;technosphere;transport, freight, sea, container ship
+market for transport, freight, lorry, unspecified;0.0222;ecoinvent;RoW;;ton kilometer;technosphere;transport, freight, lorry, unspecified
+market group for electricity, medium voltage;6.8737;ecoinvent;GLO;;kilowatt hour;technosphere;electricity, medium voltage
+market for lithium carbonate, battery grade;0.3830;ecoinvent;GLO;;kilogram;technosphere;lithium carbonate, battery grade
+NMC-622 hydroxide;0.9490;batteries;GLO;;kilogram;technosphere;NMC-622 hydroxide
+market for chemical factory, organics;7.41E-10;ecoinvent;GLO;;unit;technosphere;chemical factory, organics
+Carbon dioxide, fossil;0.2070;ecoinvent;;air;kilogram;biosphere;
+Water;0.0001;ecoinvent;;air::non-urban air or from high stacks;cubic meter;biosphere;
+;;;;;;;
+Activity;NMC-622 hydroxide;;;;;;
+location;GLO;;;;;;
+production amount;1;;;;;;
+reference product;NMC-622 hydroxide;;;;;;
+type;;;;;;;
+unit;kilogram;;;;;;
+worksheet name;Sheet1;;;;;;
+Exchanges;;;;;;;
+name;amount;database;location;categories;unit;type;reference product
+NMC-622 hydroxide;1;batteries;GLO;;kilogram;production;NMC-622 hydroxide
+market for transport, freight, inland waterways, barge;0.0027;ecoinvent;RoW;;ton kilometer;technosphere;transport, freight, inland waterways, barge
+market for transport, freight, lorry, unspecified;0.0222;ecoinvent;RoW;;ton kilometer;technosphere;transport, freight, lorry, unspecified
+market for transport, freight train;0.0329;ecoinvent;CN;;ton kilometer;technosphere;transport, freight train
+market for transport, freight, sea, container ship;0.0637;ecoinvent;GLO;;ton kilometer;technosphere;transport, freight, sea, container ship
+market for heat, district or industrial, natural gas;39.5565;ecoinvent;RoW;;megajoule;technosphere;heat, district or industrial, natural gas
+market for sodium hydroxide, without water, in 50% solution state;0.8636;ecoinvent;GLO;;kilogram;technosphere;sodium hydroxide, without water, in 50% solution state
+cobalt sulfate production, from copper mining, economic allocation;0.3260;ecoinvent;CN;;kilogram;technosphere;cobalt sulfate
+market for nickel sulfate;0.9780;ecoinvent;GLO;;kilogram;technosphere;nickel sulfate
+market for manganese sulfate;0.3260;ecoinvent;GLO;;kilogram;technosphere;manganese sulfate
+market for ammonia, anhydrous, liquid;0.0059;ecoinvent;CN;;kilogram;technosphere;ammonia, anhydrous, liquid
+market for chemical factory, organics;0.0000;ecoinvent;GLO;;unit;technosphere;chemical factory, organics
+market for wastewater, average;-0.0006;ecoinvent;RoW;;cubic meter;technosphere;wastewater, average
+Ammonia;0.0059;ecoinvent;;air;kilogram;biosphere;
+Water, cooling, unspecified natural origin;0.0006;ecoinvent;;natural resource::in water;cubic meter;biosphere;
+;;;;;;;
+;;;;;;;
+Activity;battery separator;;;;;;
+location;GLO;;;;;;
+production amount;1;;;;;;
+reference product;battery separator;;;;;;
+type;;;;;;;
+unit;kilogram;;;;;;
+worksheet name;Sheet1;;;;;;
+Exchanges;;;;;;;
+name;amount;database;location;categories;unit;type;reference product
+battery separator;1;batteries;GLO;;kilogram;production;battery separator
+market group for transport, freight train;0.0200;ecoinvent;GLO;;ton kilometer;technosphere;transport, freight train
+market for transport, freight, lorry, unspecified;0.0200;ecoinvent;RoW;;ton kilometer;technosphere;transport, freight, lorry, unspecified
+market for extrusion, plastic film;0.3509;ecoinvent;GLO;;kilogram;technosphere;extrusion, plastic film
+market for polyethylene, high density, granulate;0.3509;ecoinvent;GLO;;kilogram;technosphere;polyethylene, high density, granulate
+market for phthalic anhydride;0.2912;ecoinvent;GLO;;kilogram;technosphere;phthalic anhydride
+market for silica sand;0.2184;ecoinvent;GLO;;kilogram;technosphere;silica sand
+market for heat, district or industrial, natural gas;0.1933;ecoinvent;RoW;;megajoule;technosphere;heat, district or industrial, natural gas
+market for polyvinylfluoride;0.1922;ecoinvent;GLO;;kilogram;technosphere;polyvinylfluoride
+market for hexafluoroethane;0.0262;ecoinvent;GLO;;kilogram;technosphere;hexafluoroethane
+market for acetone, liquid;0.0144;ecoinvent;RoW;;kilogram;technosphere;acetone, liquid
+market group for electricity, medium voltage;0.0020;ecoinvent;GLO;;kilowatt hour;technosphere;electricity, medium voltage
+market for chemical factory, organics;4.00E-10;ecoinvent;GLO;;unit;technosphere;chemical factory, organics
+market for residue from shredder fraction from manual dismantling;-0.0539;ecoinvent;RoW;;kilogram;technosphere;residue from shredder fraction from manual dismantling
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+Activity;battery cell, PLIB;;;;;;
+location;GLO;;;;;;
+production amount;1;;;;;;
+reference product;battery cell, PLIB;;;;;;
+type;;;;;;;
+unit;kilogram;;;;;;
+worksheet name;Sheet1;;;;;;
+Exchanges;;;;;;;
+name;amount;database;location;categories;unit;type;reference product
+battery cell, PLIB;1;batteries;GLO;;kilogram;production;battery cell, PLIB
+market for aluminium collector foil, for Li-ion battery;0.0495;ecoinvent;GLO;;kilogram;technosphere;aluminium collector foil, for Li-ion battery
+market for aluminium, wrought alloy;0.026;ecoinvent;GLO;;kilogram;technosphere;aluminium, wrought alloy
+market for anode, graphite, for Li-ion battery;0.1779;ecoinvent;CN;;kilogram;technosphere;anode, graphite, for Li-ion battery
+market for battery separator;0.0156;ecoinvent;GLO;;kilogram;technosphere;battery separator
+market for cathode, LFP, for Li-ion battery;0.3676;ecoinvent;CN;;kilogram;technosphere;cathode, LFP, for Li-ion battery
+market for chemical factory, organics;4.00E-10;ecoinvent;GLO;;unit;technosphere;chemical factory, organics
+market for copper collector foil, for Li-ion battery;0.1099;ecoinvent;GLO;;kilogram;technosphere;copper collector foil, for Li-ion battery
+market for copper, anode;0.0292;ecoinvent;GLO;;kilogram;technosphere;copper, anode
+market for electrolyte, for Li-ion battery;0.2215;ecoinvent;GLO;;kilogram;technosphere;electrolyte, for Li-ion battery
+market for extrusion, plastic film;0.0042;ecoinvent;GLO;;kilogram;technosphere;extrusion, plastic film
+market for heat, district or industrial, natural gas;8.0772;ecoinvent;RoW;;megajoule;technosphere;heat, district or industrial, natural gas
+market for polyethylene terephthalate, granulate, amorphous;0.0031;ecoinvent;GLO;;kilogram;technosphere;polyethylene terephthalate, granulate, amorphous
+market for polypropylene, granulate;0.0011;ecoinvent;GLO;;kilogram;technosphere;polypropylene, granulate
+market for sheet rolling, aluminium;0.026;ecoinvent;GLO;;kilogram;technosphere;sheet rolling, aluminium
+market for sheet rolling, copper;0.0292;ecoinvent;GLO;;kilogram;technosphere;sheet rolling, copper
+market group for electricity, medium voltage;0.766739467;ecoinvent;CN;;kilowatt hour;technosphere;electricity, medium voltage
