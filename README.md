@@ -4,4 +4,4 @@ test
 
 ## Team members
 
-+ Samuel
++ Samuel QUINTERO HERRERA
