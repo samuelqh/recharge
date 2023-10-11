@@ -27,10 +27,10 @@ production pathways:
     production volume:
       variable: Share|NMC532andNMC622
     ecoinvent alias:
-      name: battery cell production, Li-ion, NMC811
-      reference product: battery cell, Li-ion, NMC811
-      exists in original database: False
-      new dataset: True
+      name: battery cell, NMC-622
+      reference product: battery cell
+      exists in original database: True
+
       efficiency:
       - variable: Efficiency|Electricity|NMC532andNMC622
         includes:
@@ -113,63 +113,6 @@ production pathways:
       reference product: heat pump, heat and power co-generation unit, 160kW electrical
 
 
-   Marketforheatnaturalgas:
-    production volume:
-      variable: Share|Heat|Natural Gas|NMC532andNMC622
-    ecoinvent alias:
-      name: market group for heat, district or industrial, natural gas
-      reference product: heat, district or industrial, natural gas
-    
-    Marketforheatpumps:
-    production volume:
-      variable: Share|Heat|Heat pumps|NMC532andNMC622
-    ecoinvent alias:
-      name: market for heat pump, heat and power co-generation unit, 160kW electrical
-      reference product: heat pump, heat and power co-generation unit, 160kW electrical
-
-
-   Marketforheatnaturalgas:
-    production volume:
-      variable: Share|Heat|Natural Gas|NMC811andNMC900
-    ecoinvent alias:
-      name: market group for heat, district or industrial, natural gas
-      reference product: heat, district or industrial, natural gas
-    
-    Marketforheatpumps:
-    production volume:
-      variable: Share|Heat|Heat pumps|NMC811andNMC900
-    ecoinvent alias:
-      name: market for heat pump, heat and power co-generation unit, 160kW electrical
-      reference product: heat pump, heat and power co-generation unit, 160kW electrical
-
-   Marketforheatnaturalgas:
-    production volume:
-      variable: Share|Heat|Natural Gas|LFP
-    ecoinvent alias:
-      name: market group for heat, district or industrial, natural gas
-      reference product: heat, district or industrial, natural gas
-    
-    Marketforheatpumps:
-    production volume:
-      variable: Share|Heat|Heat pumps|LFP
-    ecoinvent alias:
-      name: market for heat pump, heat and power co-generation unit, 160kW electrical
-      reference product: heat pump, heat and power co-generation unit, 160kW electrical
-
-
-   Marketforheatnaturalgas:
-    production volume:
-      variable: Share|Heat|Natural Gas|PLIB
-    ecoinvent alias:
-      name: market group for heat, district or industrial, natural gas
-      reference product: heat, district or industrial, natural gas
-    
-    Marketforheatpumps:
-    production volume:
-      variable: Share|Heat|Heat pumps|PLIB
-    ecoinvent alias:
-      name: market for heat pump, heat and power co-generation unit, 160kW electrical
-      reference product: heat pump, heat and power co-generation unit, 160kW electrical
 
 
 markets:
@@ -190,10 +133,21 @@ markets:
     includes:
       - Marketforheatnaturalgas
       - Marketforheatpumps
-  - replace:
-  - name: market group for heat, district or industrial, natural gas
-    reference product: heat, district or industrial, natural gas
-    operator: equals
+    replaces:
+      name: market group for heat, district or industrial, natural gas
+      reference product: heat, district or industrial, natural gas
+      operator: equals
+
+    replaces in:
+      name: battery cell
+      reference product: battery cell
+      operator: contains
+
+
+#  - replace:
+#  - name: market group for heat, district or industrial, natural gas
+#    reference product: heat, district or industrial, natural gas
+#    operator: equals
 
 
 
