@@ -1,0 +1,33 @@
+# Configuration file for custom scenarios for `premise`
+
+---
+
+production pathways:
+  NCA:
+    production volume:
+      variable: PRODUCTION|NCA
+    ecoinvent alias:
+      name: battery cell production, Li-ion, NCA
+      reference product: battery cell, Li-ion, NCA
+
+  NMC811:
+    production volume:
+      variable: PRODUCTION|NMC811
+    ecoinvent alias:
+      name: battery cell production, Li-ion, NMC811
+      reference product: battery cell, Li-ion, NMC811
+
+
+markets:
+  - name: Battery market (new)
+    reference product: battery cell, Li-ion
+    unit: kilogram
+    includes:
+      - NCA
+      - NMC811
+
+
+#    replaces:
+#      - name: transport, passenger car with internal combustion engine
+#        product: transport, passenger car with internal combustion engine
+#        operator: equals
