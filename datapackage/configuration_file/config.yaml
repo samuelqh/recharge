@@ -27,7 +27,4 @@ markets:
       - NMC811
 
 
-#    replaces:
-#      - name: transport, passenger car with internal combustion engine
-#        product: transport, passenger car with internal combustion engine
-#        operator: equals
+

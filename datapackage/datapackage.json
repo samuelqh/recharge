@@ -16,7 +16,7 @@
         "system model": "cut-off"
     },
     "scenarios": {
-        "BAU": [
+        "Business As Usual": [
             {
                 "model": "image",
                 "pathway": "SSP2-Base"
@@ -76,6 +76,11 @@
                     },
                     {
                         "name": "2021",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2022",
                         "type": "number",
                         "format": "default"
                     },
@@ -140,16 +145,11 @@
                         "format": "default"
                     },
                     {
-                        "name": "2025",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
                         "name": "2035",
                         "type": "number",
                         "format": "default"
                     },
-                     {
+                    {
                         "name": "2036",
                         "type": "number",
                         "format": "default"
