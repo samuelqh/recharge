@@ -182,11 +182,11 @@
             }
         },
         {
-            "path": "inventories/lci_batteries.csv",
+            "path": "inventories/lci_batteries.xlsx",
             "profile": "data-resource",
             "name": "inventories",
-            "format": "csv",
-            "mediatype": "text/csv",
+            "format": "xlsx",
+            "mediatype": "text/xlsx",
             "encoding": "utf-8",
             "schema": {
                 "fields": [
