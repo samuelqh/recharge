@@ -170,10 +170,12 @@ markets:
       - name: market group for heat, district or industrial, natural gas
         product: heat, district or industrial, natural gas
         operator: equals
+      - name: market for heat, district or industrial, natural gas
+        product: heat, district or industrial, natural gas
+        operator: equals
 
     replaces in:
-      - name: battery cell
-        reference product: battery cell
+      - name: battery cell production
         operator: contains
 
 
