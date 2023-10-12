@@ -82,10 +82,10 @@ production pathways:
     production volume:
       variable: Share|PLIB
     ecoinvent alias:
-      name: battery cell production, Li-ion, NCA
-      reference product: battery cell, Li-ion, NCA
-      exists in original database: False
-      new dataset: True
+      name: battery cell, PLIB
+      reference product: battery cell, PLIB
+      exists in original database: True
+
       efficiency:
       - variable: Efficiency|Electricity|PLIB
         includes:
