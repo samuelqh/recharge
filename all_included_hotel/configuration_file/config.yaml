@@ -30,7 +30,7 @@ production pathways:
       variable: Share|NMC532andNMC622
     ecoinvent alias:
       name: battery cell, NMC-622
-      reference product: battery cell
+      reference product: battery cell, Li-ion, NMC-622
       exists in original database: True
 
 
@@ -110,7 +110,7 @@ production pathways:
       variable: Share|PLIB
     ecoinvent alias:
       name: battery cell, PLIB
-      reference product: battery cell, PLIB
+      reference product: battery cell, Li-ion, PLIB
       exists in original database: True
 
 
