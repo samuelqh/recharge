@@ -142,8 +142,8 @@ production pathways:
     production volume:
       variable: Share|Heat|HeatPumps
     ecoinvent alias:
-      name: market for heat pump, heat and power co-generation unit, 160kW electrical
-      reference product: heat pump, heat and power co-generation unit, 160kW electrical
+      name: heat production, at heat pump 30kW, allocation exergy
+      reference product: heat, central or small-scale, other than natural gas
 
 
 
